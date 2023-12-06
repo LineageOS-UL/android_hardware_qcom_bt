@@ -64,6 +64,9 @@ LOCAL_SHARED_LIBRARIES := \
 #        libbtnv
 #LOCAL_CFLAGS += -DBT_NV_SUPPORT
 
+LOCAL_HEADER_LIBRARIES := \
+        libutils_headers
+
 LOCAL_CFLAGS += -Wno-error
 LOCAL_MODULE := libbt-vendor
 LOCAL_LICENSE_KINDS := SPDX-license-identifier-Apache-2.0 SPDX-license-identifier-BSD legacy_not_a_contribution
